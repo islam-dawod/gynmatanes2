@@ -1,0 +1,12 @@
+# BEGIN 301 redirects — SEO fixes (duplicate/old work pages -> canonical pages)
+Redirect 301 /deta/ https://gynmatanes.com/ovarian-cancer/
+Redirect 301 /deta3/ https://gynmatanes.com/cervical-cancer/
+Redirect 301 /deta4/ https://gynmatanes.com/ovarian-cancer/
+Redirect 301 /deta7/ https://gynmatanes.com/myoma/
+Redirect 301 /deta8/ https://gynmatanes.com/endometriosis/
+Redirect 301 /deta9/ https://gynmatanes.com/conization/
+Redirect 301 /deta10/ https://gynmatanes.com/myomectomy/
+Redirect 301 /details/ https://gynmatanes.com/endometrial-cancer/
+Redirect 301 /brca/ https://gynmatanes.com/brca-2/
+Redirect 301 /hpv/ https://gynmatanes.com/human-papillomavirus-hpv/
+# END 301 redirects
