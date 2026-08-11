@@ -3,4 +3,3 @@ Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
 Sitemap: https://gynmatanes.com/sitemap.xml
-Sitemap: https://gynmatanes.com/sitemap.rss
