@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- This sitemap was dynamically generated on אוגוסט 11, 2026 at 1:14 pm by All in One SEO v4.9.8 - the original SEO plugin for WordPress. -->
 
-<?xml-stylesheet type="text/xsl" href="/default-sitemap.xsl?sitemap=root"?>
+<?xml-stylesheet type="text/xsl" href="https://gynmatanes.com/default-sitemap.xsl?sitemap=root"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
-		<loc><![CDATA[/post-sitemap.xml]]></loc>
+		<loc><![CDATA[https://gynmatanes.com/post-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2025-06-17T08:29:41+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/page-sitemap.xml]]></loc>
+		<loc><![CDATA[https://gynmatanes.com/page-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2026-06-08T13:29:33+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/category-sitemap.xml]]></loc>
+		<loc><![CDATA[https://gynmatanes.com/category-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2025-06-17T08:29:41+00:00]]></lastmod>
 	</sitemap>
 	<sitemap>
-		<loc><![CDATA[/language-sitemap.xml]]></loc>
+		<loc><![CDATA[https://gynmatanes.com/language-sitemap.xml]]></loc>
 		<lastmod><![CDATA[2026-06-08T13:29:33+00:00]]></lastmod>
 	</sitemap>
 </sitemapindex>

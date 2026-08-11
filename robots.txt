@@ -2,5 +2,5 @@ User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
-Sitemap: /sitemap.xml
-Sitemap: /sitemap.rss
+Sitemap: https://gynmatanes.com/sitemap.xml
+Sitemap: https://gynmatanes.com/sitemap.rss
