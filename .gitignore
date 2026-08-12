@@ -2,3 +2,6 @@
 Thumbs.db
 desktop.ini
 node_modules/
+
+# original video uploads (kept locally, served from assets/videos/)
+/*.mp4
