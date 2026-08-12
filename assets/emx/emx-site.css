@@ -1,0 +1,64 @@
+/* =========================================================
+   EMX site tweaks — header logo sizing + selected-research block
+   Scoped, non-destructive additions to the existing site.
+   ========================================================= */
+
+/* ---- Header logo: integral, transparent, consistent height ---- */
+.elementor-element-4069905 .elementor-widget-image img,
+.elementor-element-4069905 img[src*="Asset-14-1"] {
+  height: 58px !important;
+  width: auto !important;
+  max-width: 210px;
+  object-fit: contain;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+@media (max-width: 768px) {
+  .elementor-element-4069905 .elementor-widget-image img,
+  .elementor-element-4069905 img[src*="Asset-14-1"] { height: 45px !important; }
+}
+
+/* ---- Selected research & publications ---- */
+.emx-research {
+  font-family: "Assistant", "Heebo", "Segoe UI", Arial, sans-serif;
+  direction: rtl;
+  background: #ffffff;
+  padding: 72px 0;
+}
+.emx-research .emx-head { text-align: center; margin-bottom: 40px; }
+.emx-research .emx-head h2 { font-size: 34px; font-weight: 800; color: #65746d; margin: 0 0 8px; }
+.emx-research .emx-head p { font-size: 17px; color: #5a635e; margin: 0 auto; max-width: 760px; }
+
+.emx-rgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.emx-rcard {
+  background: #fbf6f4; border: 1px solid #eee3de; border-radius: 16px;
+  padding: 26px 24px; display: flex; flex-direction: column; gap: 10px;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+.emx-rcard:hover { transform: translateY(-5px); box-shadow: 0 14px 30px rgba(0,0,0,.09); }
+.emx-ryear {
+  align-self: flex-start; background: #71827a; color: #fff;
+  font-size: 13px; font-weight: 700; padding: 3px 14px; border-radius: 999px;
+}
+.emx-rcard h3 { font-size: 18px; font-weight: 700; color: #2c332f; margin: 4px 0 0; line-height: 1.5; }
+.emx-rjournal { font-size: 13.5px; color: #9a8f8a; font-style: italic; }
+.emx-rcard > p { font-size: 14.5px; color: #6b6b6b; margin: 0; line-height: 1.7; flex: 1; }
+.emx-rlink { color: #cc3366; font-weight: 700; font-size: 14.5px; text-decoration: none; margin-top: 6px; }
+.emx-rlink:hover { text-decoration: underline; }
+
+.emx-rmore {
+  margin-top: 40px; text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 12px;
+}
+.emx-rmore span { color: #65746d; font-weight: 700; font-size: 18px; }
+.emx-rmore a {
+  display: inline-block; background: transparent; border: 2px solid #71827a; color: #65746d;
+  padding: 11px 30px; border-radius: 999px; font-weight: 700; font-size: 16px; text-decoration: none;
+  transition: all .2s ease;
+}
+.emx-rmore a:hover { background: #71827a; color: #fff; }
+
+@media (max-width: 900px) { .emx-rgrid { grid-template-columns: 1fr; max-width: 560px; margin: 0 auto; } }
+@media (max-width: 768px) { .emx-research .emx-head h2 { font-size: 27px; } }
